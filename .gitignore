@@ -1,0 +1,57 @@
+# Dependencies and generated Expo/native projects
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+/android/
+/ios/
+.gradle/
+.kotlin/
+*.tsbuildinfo
+.metro-health-check*
+
+# Local credentials, tools, settings and deliverables
+/.credentials/
+/.build-tools/
+/artifacts/
+/.vscode/
+/.idea/
+/.claude/
+/.codex/
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.key
+*.p8
+*.p12
+*.mobileprovision
+*signing.json
+local.properties
+*.apk
+*.aab
+
+# Personal media is never part of the source repository
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+/videos/
+/media/
+/recordings/
+
+# Logs and OS metadata
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+Thumbs.db
+Desktop.ini
